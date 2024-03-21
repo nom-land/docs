@@ -4,6 +4,6 @@
   "link": {
     "type": "generated-index",
     "description": "Nomland 定义了一系列和分享评论推荐有关的概念。Nomland 协议的实现也需要满足以下的概念：",
-    "slug": "./category/core-concepts"
+    "slug": "/category/core-concepts"
   }
 }

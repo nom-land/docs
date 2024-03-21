@@ -23,8 +23,8 @@ const config = {
   organizationName: 'nom-land', // Usually your GitHub org/user name.
   projectName: 'nom-doc', // Usually your repo name.
 
-  // onBrokenLinks: 'throw',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -77,7 +77,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
-          href: 'https://docs.nom.land/intro',
+          href: '/intro',
         },
         items: [
           {
