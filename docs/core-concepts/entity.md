@@ -2,19 +2,21 @@
 sidebar_position: 1
 ---
 
-# Entity
+# 实体
 
-## 什么是 Entity？
+## 什么是实体
 
 Entity 是分享、点评或推荐的对象。它是对现实世界对象或概念的抽象描述，定义了数据的结构和类型。任何类型对象都可以被分享、点评或推荐，无论是物理存在还是抽象概念，如文章，书籍，或者某一个哲学理论流派。
 
+## 所有权
 
+所有实体由 Nomland DAO 所有，且由 Nomland DAO 管理。具体参考 [Enity Governance 章节](../governance/entity-governance)。
 
-## Entity 的数据结构
+## 数据结构
 
 不同类型的实体有不同的数据格式定义，如文章类型的实体包含作者，封面，语言等，而一个电影的实体包含名称，制片人，导演等。
 
-实体的数据结构的 specification 演变及数据的维护都由 Nomland DAO 来维护。具体参考  Entry Governance 章节。
+实体的数据结构的 specification 演变及数据的维护都由 Nomland DAO 来维护。
 
 已经支持的（内容类）条目包括：文章、播客、书、电影。
     

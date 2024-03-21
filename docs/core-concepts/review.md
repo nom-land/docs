@@ -7,7 +7,11 @@ sidebar_position: 3
 Review 是协议中的核心概念。每一个 Review 由某个 Character 发起，针对某个 Entity，包含一些的 Detail，在某个 Context 中发生。
 
 
-## 数据结构定义
+## 所有权
+所有 Review 的数据所有权由发起 Review 的 Character 拥有。
+
+
+## 数据结构
 每一个 Review 包含以下几个元素：
 - Character
     - Review 的发起者。参考 [Character](./character)
