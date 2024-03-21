@@ -77,7 +77,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
-          href: './intro',
+          href: 'https://docs.nom.land/intro',
         },
         items: [
           {
