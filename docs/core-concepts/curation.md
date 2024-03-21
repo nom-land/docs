@@ -10,4 +10,4 @@ sidebar_position: 5
 
 每个 curation 都必须有 topic，可以选择性拥有简介，图片等其他个性化信息。每个 curation 属于创建它的 character，但可以授权给其他 character 共同管理。
 
-特殊情况是，如果社区想维护自己的 Curation，可以通过某种方式社区 Character 授权给指定社区成员，由社区成员共同维护 Curation。
+特殊情况是，如果社区想维护自己的 Curation，可以通过某种方式社区 Character 授权给指定社区成员，由社区成员共同维护 Curation，并且可以针对不同的 Curation 授予不同的社区成员相应的权利。

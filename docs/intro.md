@@ -21,7 +21,7 @@ Nomland 规范了日常生活中分享评论推荐的场景。如图所示，一
 
 对于这种情景，根据 Nomland 协议，首先可以解析出一条 review，然后将 Bob 的消息解析为一条 reply。对于一条 review，Nomland 规定了 character，details，entity 和 context 四个元素。对于每个 reply，Nomland 规定了 character，details 和 replyToPostId。（具体的定义可以参考 Concepts 章节）
 
-Character 是 Nomland 协议中的参与者，不管是回复还是评论，都是 Character。
+Character 是 Nomland 协议中的参与者，不管是回复还是分享评论推荐，发起的人都是 Character。
 
 Context 是 Nomland 特别引入的概念，也是 Nomland 协议和其他协议最大的区别。Context 暗示了在实际的分享场景中，一个分享本身的价值同时也可能高度依赖于它所处的 context。在实际应用时，可以根据实际情况区分不同的 context，如一个线上社区是一个 context，一个 dApp 也对应一个 context。
 

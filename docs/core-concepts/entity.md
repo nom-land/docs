@@ -10,7 +10,7 @@ Entity 是分享、点评或推荐的对象。它是对现实世界对象或概�
 
 ## 所有权
 
-所有实体由 Nomland DAO 所有，且由 Nomland DAO 管理。具体参考 [Enity Governance 章节](../governance/entity-governance)。
+所有实体由 Nomland DAO 所有，且由 Nomland DAO 管理。具体参考 [Entity Governance 章节](../governance/entity-governance)。
 
 ## 数据结构
 

@@ -24,6 +24,8 @@ dApp 可以根据需求请求 character 的权限。
 
 社区 Character 是一类特殊的 Character，通过社区 Character 的授权操作可以实现对社区的一系列必要管理。例如：设置社区简介和 LOGO、管理社区拥有的 Curation 等。
 
+所有关于 character 的授权都可以对针不同的操作对不同的人授予权限。
+
 ## 数据格式定义
 
 character 及其 metadata 的基本定义如下：
