@@ -11,15 +11,13 @@ sidebar_position: 4
 所有回复的数据所有权由发起回复的 Character 拥有。
 
 ## 数据结构
-每一次 reply 的定义如下：
-- Character: 回复的人
-- detail：回复的细节
-- idRepliedTo：具体回复的 note 的 id
 
-```typescript
-interface Reply {
-    character: Character; // 回复的人
-    detail: NoteDetails; // 回复的内容
-    idRepliedTo: string; // 回复对象的id
-}
-```
+| 元素        | 描述                           | 示例                          |
+|-------------|-------------------------------|------------------------------|
+| Character   | 发起 Reply 的人                | 如 Alice                     |
+| IdRepliedTo | Reply 指向的 Review            | 一串表示 review id 的字符串，如 ``172-12`` |
+| Details     | Reply 的详细信息               | 标题，内容，标签，图片等       |
+
+
+
+具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。

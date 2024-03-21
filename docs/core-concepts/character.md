@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Character
 
-Nomland 的 Character 允许您设置用户名，头像和其他个人资料。每一个用户都对应着一个 character，通过 character 可以分享评论或推荐，也可以回复等。每一个 Character 都有唯一的 id 及 handle。
+Character 是 Nomland 协议中的参与者，不管是回复还是分享评论推荐，发起的人都是 character。Character 可以设置用户名，头像和其他个人资料。每一个用户都对应着一个 character，通过 character 可以发布分享评论或推荐，也可以回复等。每一个 character 都有唯一的 id 及 handle。
 
 此外，每一个 context 也被赋予了一个 character。此类特殊的社区 character 对于建立起一个社区形象非常有用。
 
@@ -28,20 +28,4 @@ dApp 可以根据需求请求 character 的权限。
 
 ## 数据格式定义
 
-character 及其 metadata 的基本定义如下：
-
-```typescript
-
-interface CharacterMetadata {
-    name?: string;
-    avatars?: string[];
-    bio?: string;
-}
-
-type Character = {
-    handle: string;
-    characterId: string;
-    metadata: CharacterMetadata;
-};
-
-```
+具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。

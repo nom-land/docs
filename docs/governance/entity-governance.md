@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Entity Governance
+# Entity 治理
 
 
 Entity 是公共物品，由 Nomland DAO 共同管理，并由社区持续维护开源 SDK、indexer 等供社区使用。如果应用需要对 Entity 进行管理，如新增 Entity 等，可以通过向 Nomland DAO 提供的接口发送数据。

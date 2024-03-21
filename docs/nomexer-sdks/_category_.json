@@ -1,6 +1,6 @@
 {
   "label": "Nomexer & SDKs",
-  "position": 3,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Nomexer 和 SDK 是对 Nomland 协议的实现，也是和 Nomland 协议交互构建应用的工具。"

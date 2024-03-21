@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# 实体
+# Entity
 
-## 什么是实体
+## 什么是 Entity
 
 Entity 是分享、点评或推荐的对象。它是对现实世界对象或概念的抽象描述，定义了数据的结构和类型。任何类型对象都可以被分享、点评或推荐，无论是物理存在还是抽象概念，如文章，书籍，或者某一个哲学理论流派。
 
 ## 所有权
 
-所有实体由 Nomland DAO 所有，且由 Nomland DAO 管理。具体参考 [Entity Governance 章节](../governance/entity-governance)。
+所有实体由 Nomland DAO 所有，且由 Nomland DAO 管理。具体参考 [Entity 治理 章节](../governance/entity-governance)。
 
 ## 数据结构
 
@@ -25,3 +25,5 @@ Entity 是分享、点评或推荐的对象。它是对现实世界对象或概�
     [TODO]
 
 更多类型（咖啡馆、餐厅、coworking space、游戏..）条目根据需求陆续支持，欢迎加入社区参与讨论👏。
+
+具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
