@@ -24,7 +24,7 @@ Context 是 Nomland 特别引入的概念，也是 Nomland 协议和其他协议
 
 除了基础的分享、评论和推荐的场景，Nomland 也支持后续基于已有的 review 进行 curate。
 
-具体的定义可以参考[核心概念](./core-concepts/)章节。
+具体的定义可以参考[核心概念](./category/core-concepts/)章节。
 
 
 
