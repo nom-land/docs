@@ -22,4 +22,4 @@ Review 是协议中的核心概念。每一个 Review 由某个 Character 发起
 | Details   | Review 的详细信息。                                           | 标题，内容，标签，图片等 |
 | Collector | Review 可能由 Collector 提交到 Nomland Network 中，而非本人。 | 一个以太坊地址           |
 
-具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
+特别说明，Review 的实现基于了底层 Crossbell 协议的 Note，所以数据结构也继承了 Note 的数据结构。具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。

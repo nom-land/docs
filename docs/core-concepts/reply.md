@@ -19,5 +19,4 @@ sidebar_position: 5
 | Details     | Reply 的详细信息               | 标题，内容，标签，图片等       |
 
 
-
-具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
+特别说明，Reply 的实现基于了底层 Crossbell 协议的 Note，所以数据结构也继承了 Note 的数据结构。具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
