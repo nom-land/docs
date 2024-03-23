@@ -12,10 +12,12 @@ sidebar_position: 5
 
 ## 数据结构
 
-| 元素        | 描述                | 示例                                     |
-| ----------- | ------------------- | ---------------------------------------- |
-| Character   | 发起 Reply 的人     | 如 Alice                                 |
-| IdRepliedTo | Reply 指向的 Review | 一串表示 review id 的字符串，如 `172-12` |
-| Details     | Reply 的详细信息    | 标题，内容，标签，图片等                 |
+| 元素        | 描述                           | 示例                          |
+|-------------|-------------------------------|------------------------------|
+| Character   | 发起 Reply 的人                | 如 Alice                     |
+| Review      | Reply 指向的 Review            | 一串表示 review id 的字符串，如 ``172-12`` |
+| Details     | Reply 的详细信息               | 标题，内容，标签，图片等       |
+
+
 
 具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
