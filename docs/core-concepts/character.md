@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Character
 
-Character 是 Nomland 协议中的参与者，不管是回复还是分享评论推荐，发起的人都是 character。Character 可以设置用户名，头像和其他个人资料。每一个用户都对应着一个 character，通过 character 可以发布分享评论或推荐，也可以回复等。每一个 character 都有唯一的 id 及 handle。
+Character 是 Nomland 协议中的参与者，每一个用户都对应着一个 character，通过 character 参与 Review、Share、Reply 等。
+每一个 character 都有唯一的 id 及 handle。
+Character 可以设置用户名，头像和其他个人资料。
 
 ## 所有权
 

@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position:
 ---
 
 # Reply
 
-除了 Review 外，基于 Review 的回复也应该被记录，不仅因为这体现了 Review 本身的价值，也是因为本质上来说，基于 Review 的讨论客观上也是对原本分享内容的再次分享。
+Reply 是指对 [Review](./review) 或 [Share](./share) 的回复。对 Share 的 Reply 会继承对应的 Context。
 
 ## 所有权
 
@@ -12,11 +12,10 @@ sidebar_position: 5
 
 ## 数据结构
 
-| 元素        | 描述                           | 示例                          |
-|-------------|-------------------------------|------------------------------|
-| Character   | 发起 Reply 的人                | 如 Alice                     |
-| Review      | Reply 指向的 Review            | 一串表示 review id 的字符串，如 ``172-12`` |
-| Details     | Reply 的详细信息               | 标题，内容，标签，图片等       |
-
+| 元素    | 是否必须 | 描述                                           | 示例                                     |
+| ------- | -------- | ---------------------------------------------- | ---------------------------------------- |
+| author  | 是       | 发起 Reply 的 [Character](./character)         | 如 Alice                                 |
+| replyTo | 是       | Reply 指向的 Review 或 Share                   | 一串表示 review id 的字符串，如 `172-12` |
+| Details | 是       | Reply 的详细信息，包括标题、正文、标签、附件。 |                                          |
 
 特别说明，Reply 的实现基于了底层 Crossbell 协议的 Note，所以数据结构也继承了 Note 的数据结构。具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。

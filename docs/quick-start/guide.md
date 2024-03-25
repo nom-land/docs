@@ -3,10 +3,14 @@ sidebar_position: 1
 ---
 
 # 构建你的第一个 Nomland 应用
+
 <i>👷 本篇文档还在完善中</i>
 
+让我们通过 Nomland 协议来构建一个文章推荐的应用。
 
-让我们通过 Nomland 协议来构建一个文章推荐的应用。 
+## 注册一个 dApp
+
+TODO
 
 ## 创建内容
 
@@ -16,8 +20,7 @@ sidebar_position: 1
 
 对于这种情景，根据 Nomland 协议，首先可以解析出一条 review，然后将 Bob 的消息解析为一条 reply。
 
-```TODO:code here```
-
+`TODO:code here`
 
 ## 策展内容
 
@@ -29,4 +32,4 @@ sidebar_position: 1
 
 这种需求可以通过 Nomland 的 review 功能进行 curate。
 
-```TODO:code here```
+`TODO:code here`

@@ -4,22 +4,23 @@ sidebar_position: 4
 
 # Review
 
-Review 是协议中的核心概念。每一个 Review 由某个 Character 发起，针对某个 Entity，包含一些的 Detail，在某个 Context 中发生。
+## 定义
+
+Review 是由某个 character 针对某个 Entity 发表的评论，可以对 Review 回复（Reply）。
 
 ## 所有权
 
-所有 Review 的数据所有权由发起 Review 的 Character 拥有。
+所有 Review 的数据所有权由发起 Review 的 Character 拥有。对 Review 回复的 Reply 数据所有权属于 Reply 的作者。
 
 ## 数据结构
 
 每一个 Review 包含以下几个元素：
 
-| 元素      | 描述                                                          | 示例                     |
-| --------- | ------------------------------------------------------------- | ------------------------ |
-| Character | Review 的发起者。参考 [Character](./character)                | 如 Alice                 |
-| Context   | Review 发生的上下文。                                         | Book Fans Community      |
-| Entity    | 分享评论推荐的具体内容，对应 [Entity](./entity)               | 一本书                   |
-| Details   | Review 的详细信息。                                           | 标题，内容，标签，图片等 |
-| Collector | Review 可能由 Collector 提交到 Nomland Network 中，而非本人。 | 一个以太坊地址           |
+| 元素      | 是否必须 | 描述                                                             | 示例                       |
+| --------- | -------- | ---------------------------------------------------------------- | -------------------------- |
+| Author    | 是       | Review 的作者，对应一个 character。参考 [Character](./character) | 如 Alice                   |
+| Entity    | 是       | Review 的对象，对应 [Entity](./entity)                           | 如一篇文章                 |
+| Details   | 是       | Review 的详细信息，包括标题、正文、标签、附件。                  | 如一篇富文本评论文章及标签 |
+| Collector | 否       | 帮助 Review 被协议收录的贡献者，一般也对应为一个 Character。     | 如 Bob                     |
 
 特别说明，Review 的实现基于了底层 Crossbell 协议的 Note，所以数据结构也继承了 Note 的数据结构。具体的结构定义参考 [Specification 小节](../nomexer-sdks/specification)。
