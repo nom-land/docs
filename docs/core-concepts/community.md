@@ -21,7 +21,7 @@ dApp 可以根据需求请求 community 的权限。
 ## 权限管理
 
 为了更好的用户体验，Nomland 未来会支持用户授予一部分代理操作的权力给指定的 character。
-通过 community 授权操作可以实现对社区的一系列必要管理。例如：设置社区简介和 LOGO、管理 community 拥有的 Curation、社区[内容治理](./content-governance)等。
+通过 community 授权操作可以实现对社区的一系列必要管理。例如：设置社区简介和 LOGO、管理 community 拥有的 Curation、社区[内容治理](../governance/content-governance)等。
 
 ## 数据格式定义
 

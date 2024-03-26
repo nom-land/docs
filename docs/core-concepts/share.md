@@ -21,7 +21,7 @@ Share 也可以被回复（Reply），并且针对 Share 的 Reply 会继承同�
 | --------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Author    | 是       | Share 的作者，分享人，对应一个 character。参考 [Character](./character)                                                                                 | 如 Alice                   |
 | Context   | 否       | Share 对应的场景                                                                                                                                        | 例如某个 Community         |
-| Item      | 是       | Share 的对象，对应 [Entity](./entity)、[Review](./review)、[Reply](./reply)、[Character](./character)、[Community](./community)、[Curation](./curation) | 如一篇 review              |
+| Item      | 是       | Share 的对象，对应 [Entity](./entity)、[Review](./review)、[Character](./character)、[Community](./community)、[Curation](./curation) | 如一篇 review              |
 | Details   | 是       | Share 的详细信息，包括标题、正文、标签、附件                                                                                                            | 如一篇富文本评论文章及标签 |
 | Collector | 否       | 帮助 Share 被协议收录的贡献者，一般也对应为一个 Character。                                                                                             | 如 Bob                     |
 
