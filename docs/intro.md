@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## 什么是 Nomland Protocol？
 
-Nomland 是一套关于评论、分享、推荐的协议，规范并聚合了多样的内容，并对评论、分享、推荐整个周期中涉及的价值进行记录。
+Nomland 是一套关于评论、分享与策展的协议，规范并聚合了多样的内容，并对评论、分享、策展整个周期中涉及的价值进行记录。
 
 ## 为什么需要 Nomland？
 
@@ -14,13 +14,10 @@ Nomland 是一套关于评论、分享、推荐的协议，规范并聚合了多
 
 ## 总览
 
-Nomland 规范了日常生活中评论分享推荐的场景。
-对于一次典型的分享评论推荐，Nomland 规定了谁（Character）在哪里（Context）分享评论或推荐（Review）了什么（Entity）。分享评论或推荐时发表的内容，标签，发布时间等属于 Details。
+Nomland 规范了日常生活中评论或分享场景。对于一次典型的评论或分享，Nomland 规定了谁（Character）评论（Review）了什么（Entity），以及由谁（Character）把什么（Review/Entity/Reply/Character/Community）分享（Share）给什么场景（Context）。
 
-针对于每条分享评论推荐，任何人（Character）都可以 Reply。
+场景（Context）是 Nomland 特别引入的概念，也是 Nomland 协议和其他协议最大的区别。Context 暗示了在实际的分享场景中，一个分享本身的价值同时也可能高度依赖于它所处的 context。其中 Community 是 Context 最典型的用法。
 
-Context 是 Nomland 特别引入的概念，也是 Nomland 协议和其他协议最大的区别。Context 暗示了在实际的分享场景中，一个分享本身的价值同时也可能高度依赖于它所处的 context。
-
-除了基础的分享、评论和推荐的场景，Nomland 也支持后续基于已有的 review 进行 curate。
+Nomland 支持对以上全部内容进行策展（curation）。
 
 具体的定义可以参考[核心概念](./category/core-concepts/)章节。
