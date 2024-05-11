@@ -21,3 +21,7 @@ Nomland 规范了日常生活中评论或分享场景。对于一次典型的评
 Nomland 支持对以上全部内容进行策展（curation）。
 
 具体的定义可以参考[核心概念](./category/core-concepts/)章节。
+
+Nomland 的协议实现基于区块链，在区块链之上，我们也实现了一套 SDK 用于开发者和 Nomland 协议交互并构建应用。Nomland 协议的整体技术架构如下：
+
+![](./img/nomland-arch.jpg)
